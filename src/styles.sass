@@ -12,7 +12,52 @@ body
 .container
   width: 1344px
   margin: 0 auto
+.container-news
+ display: flex
+ justify-content: space-between
 .spacer
   height: 2px
   background-color: #D9DBE9
-  
+  // styles/styles.sass
+
+// Основний блок
+.container-block
+    margin-left: auto
+    padding: 20px
+    width: 755px
+    height: 255px
+    fill: #FFD3FD
+    filter: drop-shadow(0px 50px 60px rgba(0, 0, 0, 0.08))
+    background-color: #FFD3FD
+    border-radius: 20px
+    
+
+// Флекс-контейнер
+.flex-container
+    display: flex
+    flex-direction: column
+    align-items: flex-start 
+
+// Заголовок
+.block-title
+    font-size: 24px
+    font-weight: bold
+    margin-bottom: 10px
+
+// Опис
+.block-description
+    font-size: 16px
+    text-align: center
+    margin-bottom: 20px
+
+// Кнопка
+.block-button
+    padding: 10px 20px
+    font-size: 16px
+    background-color: #3498db
+    color: #fff
+    border: none
+    width: 211px
+    height: 55px
+    border-radius: 20px
+    justify-content: center
