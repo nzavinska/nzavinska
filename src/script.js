@@ -1,5 +1,6 @@
 module.exports = news; 
-const latestNews = document.querySelector('.latest-news');
+// Move the declaration outside of the block scope
+const News = document.querySelector('.latest-news');
 for (let i = 0; i <news.length; i++) {
     const cardNews = document.createElement('div');
     cardNews.classList.add('card-news');
