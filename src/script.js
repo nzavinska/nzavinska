@@ -38,6 +38,6 @@ fetch('https://4e4868ae-2442-41c9-a453-7ee36ab7012d.mock.pstmn.io/api/get_financ
             latestNews.appendChild(cardNews);
         }
     })
+    
 
-    const latestNews = document.querySelector('.latest-news');
 
